@@ -1,6 +1,6 @@
 const { GraphQLScalarType } = require('graphql')
 
-const Any = new GraphQLScalarType({
+const GraphQLAny = new GraphQLScalarType({
   name: 'Object',
   description: 'Can be anything',
   parseValue(value) {
@@ -15,5 +15,5 @@ const Any = new GraphQLScalarType({
 })
 
 module.exports = {
-  Any
+  GraphQLAny
 }

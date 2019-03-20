@@ -10,7 +10,7 @@ yarn add graphql-any-type
 
 ## Usage
 ```
-const { Any } = require('graphql-any-type')
+const { GraphQLAny } = require('graphql-any-type')
 ```
 
 And use it in your Schema as you would use any type.
